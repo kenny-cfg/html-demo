@@ -1,3 +1,15 @@
-h1 {
+#header1 {
   background-color: red;
+}
+
+#mainParagraph {
+  background-color: pink;
+}
+
+.smallHeader {
+  background-color: blue;
+}
+
+.yellow {
+  color: yellow;
 }
