@@ -8,7 +8,17 @@ const thirdParagraphContents = document.getElementById('thirdParagraph').innerTe
 
 console.log(thirdParagraphContents)
 
+let newThirdParagraphContents = ''
+
 for (let i = 0; i < 50; i++) {
-  document.write(i)
+  newThirdParagraphContents += ' '
+  newThirdParagraphContents += thirdParagraphContents
 }
-document.write('HELLO')
+
+document.getElementById('thirdParagraph').innerText = newThirdParagraphContents
+
+for (const header of document.getElementsByClassName('smallHeader')) {
+  header.innerText = 'This is a small header'
+}
+
+document.getElementsByClassName('smallHeader')[0].innerText = 'This has index 0'
