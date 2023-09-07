@@ -13,3 +13,7 @@
 .yellow {
   color: yellow;
 }
+
+p {
+  font-weight: bold;
+}
