@@ -1,6 +1,7 @@
-console.log('Hello from form.js')
-
 const buttonElement = document.getElementById('button')
-document.onclick = () => {
-  console.log('You just clicked the button')
+const inputElement = document.getElementById('inputBox')
+
+buttonElement.onclick = () => {
+  const nameEntered = inputElement.value
+  console.log(nameEntered)
 }
